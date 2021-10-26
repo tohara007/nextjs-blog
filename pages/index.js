@@ -44,6 +44,9 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <section className={utilStyles.headingMd}>
+        <Link href="https://google.co.jp">ここからGoogleへ</Link>
+      </section>
     </Layout>
   )
 }
