@@ -47,6 +47,11 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <Link href="https://google.co.jp">ここからGoogleへ</Link>
       </section>
+      <section className={utilStyles.headingMd}>
+        {/* Next.js では、<Link href="path"> でページ遷移可能 */}
+        {/* ここで指定する"path"は、src/pagesに存在するファイル名と一致させること */}
+        <Link href="/testPage">ここからテストページへ</Link>
+      </section>
     </Layout>
   )
 }
